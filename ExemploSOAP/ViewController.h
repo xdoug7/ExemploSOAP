@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NSXMLParserDelegate>
+
+- (IBAction)calcularTemperatura:(UIButton *)sender;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UITextField *grausTextField;
+@property (unsafe_unretained, nonatomic) IBOutlet UISegmentedControl *temperaturaSegControl;
+@property (unsafe_unretained, nonatomic) IBOutlet UILabel *resultadoLabel;
 
 @end
