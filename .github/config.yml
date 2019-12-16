@@ -1,0 +1,11 @@
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment:|
+  ![](https://media.giphy.com/media/FQyQEYd0KlYQ/giphy.gif)
+
+  # Welcome! 🎉
+  Congratulations and thanks for opening this pull request! 👏
+  Please check out our style guides here: [Code Style Guide](https://github.com/ifood/ifood-consumer-wiki/wiki/Code-Style-Guide)
+
+  @xdoug7 please give a warm welcome ❤️
